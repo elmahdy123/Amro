@@ -1,0 +1,154 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.calc-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 360px;
+    position: relative;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.feilds-name {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feilds-name div {
+   
+    width: 70px;
+    height: 70px;
+}
+.feilds-name :nth-child(1) {
+   
+    width: 118px;
+    height: 70px;
+}
+
+.segmants {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    height: 100%;
+    justify-content: space-between;
+}
+.segmants :nth-child(1){
+    border-radius: 5px 0px 0px 0px;
+    
+}
+.segmants :nth-child(4){
+    border-radius: 0px 0px 0px 5px;
+    
+}
+.segmants label {
+
+}
+
+.target-score {
+    display: flex;
+    flex-direction: column;
+}
+.target-score input{
+
+    width: 70px;
+    height: 70px;
+}
+
+.grade {
+    display: flex;
+    flex-direction: column;
+}
+.grade input {
+    width: 70px;
+    height: 70px;
+}
+.weight{
+    display: flex;
+    flex-direction: column;
+}
+.weight input{
+
+    width: 70px;
+    height: 70px;
+}
+
+.weight :nth-child(1){
+    border-radius: 0px 5px 0px 0px;
+    
+}
+
+.weight :nth-child(4){
+    border-radius: 0px 0px 5px 0px;
+    
+}
+
+
+input {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;    
+    font-size: 18px;
+    background-color: black;
+    margin: 2px;
+    color: white;
+
+}
+
+label {
+    justify-content: left;
+    padding: 10px;
+}
+
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-btn {
+    width: 100px;
+    height: 60px;
+    background-color: black;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.show-result {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
